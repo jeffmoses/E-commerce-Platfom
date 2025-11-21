@@ -96,7 +96,7 @@ router.get('/', optionalAuth, async (req, res) => {
     }
 
     // Featured products
-    if (req.query.featured === 'true') {
+    if (req.query.isFeatured === 'true') {
       query.isFeatured = true;
     }
 
