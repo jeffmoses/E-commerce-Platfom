@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-platform",
+  "version": "1.0.0",
+  "description": "MERN E-commerce Platform",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install": "npm install --legacy-peer-deps"
+  }
+}
