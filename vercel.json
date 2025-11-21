@@ -1,9 +1,5 @@
 {
   "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
   "installCommand": "npm install --legacy-peer-deps",
-  "outputDirectory": "client/dist",
-  "env": {
-   "VITE_API_URL": "@VITE_API_URL",
-    "VITE_SOCKET_URL": "@VITE_SOCKET_URL"
-  }
+  "outputDirectory": "client/dist"
 }
