@@ -3,7 +3,6 @@ node_modules/
 /server/.env
 /client/.env.local
 /.env.local
-dist/
 .DS_Store
 npm-debug.log*
 package-lock.json
